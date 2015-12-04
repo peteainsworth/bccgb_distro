@@ -302,11 +302,6 @@ libraries[superfish][download][url] = "https://github.com/mehrpadin/Superfish-fo
 libraries[superfish][destination] = "libraries"
 libraries[superfish][directory_name] = "superfish"
 
-libraries[tokeninput][download][type] = "get"
-libraries[tokeninput][download][url] = "https://github.com/mehrpadin/Superfish-for-Drupal/archive/1.x.zip"
-libraries[tokeninput][destination] = "libraries"
-libraries[tokeninput][directory_name] = "tokeninput"
-
 
 ; =====================================
 ; Custom Modules
