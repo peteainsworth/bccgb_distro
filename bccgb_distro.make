@@ -180,6 +180,9 @@ projects[og][subdir] = "contrib"
 projects[og_extras][version] = "1.2"
 projects[og_extras][subdir] = "contrib"
 
+projects[options_element][version] = "1.12"
+projects[options_element][subdir] = "contrib"
+
 projects[omega_tools][version] = "3.0-rc4"
 projects[omega_tools][subdir] = "contrib"
 
