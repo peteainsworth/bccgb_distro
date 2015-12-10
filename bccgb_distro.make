@@ -10,20 +10,22 @@ api = 2
 ; =====================================
 ; Contrib Modules
 ; =====================================
-projects[civicrm][type] = "module"
-projects[civicrm][directory_name] = "civicrm"
-projects[civicrm][download][type] = "get"
-projects[civicrm][download][url] = "http://downloads.sourceforge.net/project/civicrm/civicrm-stable/4.6.10/civicrm-4.6.10-drupal.tar.gz"
+libraries[civicrm][type] = "module"
+libraries[civicrm][destination] = "modules"
+libraries[civicrm][directory_name] = "civicrm"
+libraries[civicrm][download][type] = "get"
+libraries[civicrm][download][url] = "http://downloads.sourceforge.net/project/civicrm/civicrm-stable/4.6.10/civicrm-4.6.10-drupal.tar.gz"
 
 libraries[civicrm_l10n][destination] = "modules"
-libraries[civicrm_l10n][directory_name] = "civicrm"
-libraries[civicrm_l10n][download][type] = "get"
-libraries[civicrm_l10n][download][url] = "http://downloads.sourceforge.net/project/civicrm/civicrm-stable/4.6.10/civicrm-4.6.10-l10n.tar.gz"
+libraries[civicrm_l10n][download][type] = "git"
+libraries[civicrm_l10n][directory_name] = "civicrm/l10n"
+libraries[civicrm_l10n][download][url] = "git@github.com:peteainsworth/civicrm-l10n.git"
 
 libraries[civimailchimp][destination] = "modules/contrib"
 libraries[civimailchimp][directory_name] = "civimailchimp"
 libraries[civimailchimp][download][type] = "get"
 libraries[civimailchimp][download][url] = "https://github.com/giant-rabbit/com.giantrabbit.civimailchimp/archive/1.4.zip"
+
 
 ; =====================================
 ; FR Modules
@@ -256,6 +258,31 @@ projects[adaptivetheme][subdir] = "contrib"
 
 
 ; =====================================
+; Custom Themes
+; =====================================
+projects[bccgbcrm][type] = "theme"
+projects[bccgbcrm][download][type] = "git"
+projects[bccgbcrm][download][url] = "git@github.com:peteainsworth/bccgbcrm.git"
+projects[bccgbcrm][download][branch] = "master"
+projects[bccgbcrm][subdir] = "custom"
+projects[bccgbcrm][directory_name] = "bccgbcrm"
+
+projects[bccgb][type] = "theme"
+projects[bccgb][download][type] = "git"
+projects[bccgb][download][url] = "git@github.com:peteainsworth/bccgb.git"
+projects[bccgb][download][branch] = "master"
+projects[bccgb][subdir] = "custom"
+projects[bccgb][directory_name] = "bccgb"
+
+projects[bccgb2][type] = "theme"
+projects[bccgb2][download][type] = "git"
+projects[bccgb2][download][url] = "git@github.com:peteainsworth/bccgb2.git"
+projects[bccgb2][download][branch] = "master"
+projects[bccgb2][subdir] = "custom"
+projects[bccgb2][directory_name] = "bccgb2"
+
+
+; =====================================
 ; Libraries
 ; =====================================
 libraries[ckeditor][download][type] = "get"
@@ -305,8 +332,37 @@ libraries[superfish][directory_name] = "superfish"
 ; =====================================
 ; Custom Modules
 ; =====================================
+projects[contact_social][type] = "module"
+projects[contact_social][download][type] = "git"
+projects[contact_social][download][url] = "git@github.com:peteainsworth/contact_social.git"
+projects[contact_social][download][branch] = "master"
+projects[contact_social][subdir] = "custom"
+projects[contact_social][directory_name] = "contact_social"
+
+projects[civicrmogp][type] = "module"
+projects[civicrmogp][download][type] = "git"
+projects[civicrmogp][download][url] = "git@github.com:peteainsworth/civicrmogp.git"
+projects[civicrmogp][download][branch] = "master"
+projects[civicrmogp][subdir] = "custom"
+projects[civicrmogp][directory_name] = "civicrmogp"
 
 
 ; =====================================
 ; Features
 ; =====================================
+projects[slideshow_nofrontpage][type] = "module"
+projects[slideshow_nofrontpage][download][type] = "git"
+projects[slideshow_nofrontpage][download][url] = "git@github.com:peteainsworth/slideshow_nofrontpage.git"
+projects[slideshow_nofrontpage][download][branch] = "master"
+projects[slideshow_nofrontpage][subdir] = "custom/features"
+projects[slideshow_nofrontpage][directory_name] = "slideshow_nofrontpage"
+
+
+; =====================================
+; CiviCRM Custom Settings
+; =====================================
+libraries[civicrm_custom][type] = "module"
+libraries[civicrm_custom][destination] = "modules"
+libraries[civicrm_custom][directory_name] = "civicrm_custom"
+libraries[civicrm_custom][download][type] = "get"
+libraries[civicrm_custom][download][url] = "git@github.com:peteainsworth/bccgb_civicrm_custom.git"
