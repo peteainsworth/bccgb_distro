@@ -108,6 +108,9 @@ projects[file_entity][subdir] = "contrib"
 projects[flexslider][version] = "2.0-rc1"
 projects[flexslider][subdir] = "contrib"
 
+projects[flexslider_views_slideshow][version] = "2.x-dev"
+projects[flexslider_views_slideshow][subdir] = "contrib"
+
 projects[getid3][version] = "2.0-beta3"
 projects[getid3][subdir] = "contrib"
 
@@ -150,7 +153,7 @@ projects[login_destination][subdir] = "contrib"
 projects[logintoboggan][version] = "1.4"
 projects[logintoboggan][subdir] = "contrib"
 
-projects[mailchimp][version] = "3.2"
+projects[mailchimp][version] = "3.6"
 projects[mailchimp][subdir] = "contrib"
 
 projects[me][version] = "1.2"
@@ -189,13 +192,16 @@ projects[omega_tools][subdir] = "contrib"
 projects[page_title][version] = "2.7"
 projects[page_title][subdir] = "contrib"
 
+projects[pathauto][version] = "1.3"
+projects[pathauto][subdir] = "contrib"
+
 projects[recaptcha][version] = "2.0"
 projects[recaptcha][subdir] = "contrib"
 
 projects[redirect][version] = "1.0-rc3"
 projects[redirect][subdir] = "contrib"
 
-projects[rules][version] = "2.9"
+projects[rules][version] = "2.x-dev"
 projects[rules][subdir] = "contrib"
 
 projects[service_links][version] = "2.2"
