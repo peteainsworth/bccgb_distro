@@ -36,13 +36,13 @@ projects[adaptive_image][subdir] = "contrib"
 projects[admin_menu][version] = "3.0-rc5"
 projects[admin_menu][subdir] = "contrib"
 
-projects[advanced_help][version] = "1.3"
+projects[advanced_help][version] = "3.0-rc5 "
 projects[advanced_help][subdir] = "contrib"
 
-projects[ais][version] = "1.6"
+projects[ais][version] = "1.7"
 projects[ais][subdir] = "contrib"
 
-projects[backup_migrate][version] = "2.8"
+projects[backup_migrate][version] = "3.1"
 projects[backup_migrate][subdir] = "contrib"
 
 projects[botcha][version] = "3.3"
@@ -78,7 +78,7 @@ projects[context][subdir] = "contrib"
 projects[ctools][version] = "1.9"
 projects[ctools][subdir] = "contrib"
 
-projects[date][version] = "2.8"
+projects[date][version] = "2.9"
 projects[date][subdir] = "contrib"
 
 projects[entity][version] = "1.6"
@@ -147,10 +147,10 @@ projects[lightbox2][subdir] = "contrib"
 projects[link][version] = "1.3"
 projects[link][subdir] = "contrib"
 
-projects[login_destination][version] = "1.1"
+projects[login_destination][version] = "1.3"
 projects[login_destination][subdir] = "contrib"
 
-projects[logintoboggan][version] = "1.4"
+projects[logintoboggan][version] = "1.5"
 projects[logintoboggan][subdir] = "contrib"
 
 projects[mailchimp][version] = "2.12"
@@ -201,16 +201,16 @@ projects[recaptcha][subdir] = "contrib"
 projects[redirect][version] = "1.0-rc3"
 projects[redirect][subdir] = "contrib"
 
-projects[rules][version] = "2.x-dev"
+projects[rules][version] = "2.9"
 projects[rules][subdir] = "contrib"
 
-projects[service_links][version] = "2.2"
+projects[service_links][version] = "2.3"
 projects[service_links][subdir] = "contrib"
 
 projects[skinr][version] = "2.0"
 projects[skinr][subdir] = "contrib"
 
-projects[smtp][version] = "1.2"
+projects[smtp][version] = "1.3"
 projects[smtp][subdir] = "contrib"
 
 projects[spambot][version] = "1.4"
@@ -228,7 +228,7 @@ projects[themekey][subdir] = "contrib"
 projects[token][version] = "1.6"
 projects[token][subdir] = "contrib"
 
-projects[views][version] = "3.11"
+projects[views][version] = "3.13"
 projects[views][subdir] = "contrib"
 
 projects[views_accordion][version] = "1.1"
@@ -240,7 +240,7 @@ projects[views_bulk_operations][subdir] = "contrib"
 projects[views_slideshow][version] = "3.1"
 projects[views_slideshow][subdir] = "contrib"
 
-projects[webform][version] = "4.10"
+projects[webform][version] = "4.12"
 projects[webform][subdir] = "contrib"
 
 projects[webform_civicrm][version] = "4.14"
@@ -259,10 +259,10 @@ projects[wysiwyg_filter][subdir] = "contrib"
 ; =====================================
 ; Base Themes
 ; =====================================
-projects[omega][version] = ""   
+projects[omega][version] = "4.4"   
 projects[omega][subdir] = "contrib"
 
-projects[adaptivetheme][version] = ""   
+projects[adaptivetheme][version] = "3.2"   
 projects[adaptivetheme][subdir] = "contrib"
 
 
