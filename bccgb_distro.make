@@ -259,7 +259,7 @@ projects[wysiwyg_filter][subdir] = "contrib"
 ; =====================================
 ; Base Themes
 ; =====================================
-projects[omega][version] = "4.4"   
+projects[omega][version] = "3.1"   
 projects[omega][subdir] = "contrib"
 
 projects[adaptivetheme][version] = "3.2"   
