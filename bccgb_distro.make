@@ -14,7 +14,7 @@ libraries[civicrm][type] = "module"
 libraries[civicrm][destination] = "modules"
 libraries[civicrm][directory_name] = "civicrm"
 libraries[civicrm][download][type] = "get"
-libraries[civicrm][download][url] = "http://downloads.sourceforge.net/project/civicrm/civicrm-stable/4.6.10/civicrm-4.6.10-drupal.tar.gz"
+libraries[civicrm][download][url] = "http://downloads.sourceforge.net/project/civicrm/civicrm-stable/4.4.20/civicrm-4.4.20-drupal.tar.gz"
 
 libraries[civicrm_l10n][destination] = "modules"
 libraries[civicrm_l10n][download][type] = "git"
